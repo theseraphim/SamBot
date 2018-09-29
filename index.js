@@ -33,6 +33,6 @@ Music.start(bot, {
   botAdmin: ['Tr4sh P4nda#3195']
 });
 
-bot.login(TOKEN);
+//bot.login(TOKEN);
 
 bot.on('ready', () => console.log('SamBot is Ready!'));
