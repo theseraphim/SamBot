@@ -29,7 +29,7 @@ Music.start(bot, {
   anyoneCanLeave: 'false',
   requesterName: 'true',
   //disableLeave: 'true',
-  clearOnLeave: 'true',
+  //clearOnLeave: 'true',
   botAdmin: ['Tr4sh P4nda#3195']
 });
 
