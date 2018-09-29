@@ -21,15 +21,15 @@ bot.on('message', function(message){
 
 Music.start(bot, {
   youtubeKey: 'AIzaSyDNoH8g3hVzyQs_qWiwtwlFLj6Xv1Dt_dc',
-  enableQueueStat: 'true',
+  enableQueueStat: true,
   prefix: 'm!',
   //clearInvoker: 'true',
   maxQueueSize: '200',
   embedColor: 'Yellow',
-  anyoneCanLeave: 'false',
-  requesterName: 'true',
-  //disableLeave: 'true',
-  //clearOnLeave: 'true',
+  anyoneCanLeave: false,
+  requesterName: true,
+  //disableLeave: true,
+  clearOnLeave: true,
   botAdmin: ['Tr4sh P4nda#3195']
 });
 
