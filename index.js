@@ -26,7 +26,11 @@ Music.start(bot, {
   //clearInvoker: 'true',
   maxQueueSize: '200',
   embedColor: 'Yellow',
-  anyoneCanLeave: 'true'
+  anyoneCanLeave: 'false',
+  requesterName: 'true',
+  //disableLeave: 'true',
+  clearOnLeave: 'true',
+  botAdmin: ['Tr4sh P4nda#3195']
 });
 
 bot.login(TOKEN);
